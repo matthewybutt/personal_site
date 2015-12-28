@@ -19,9 +19,9 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/main.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
@@ -39,14 +39,14 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
-      </div>
-    </div>
+  <div class="container button-bar">
+    <button class="button nav-btn box-shadow--2dp" ui-sref-active="active" ui-sref="home"> Home </button>
+    <button class="button nav-btn box-shadow--2dp" ui-sref-active="active" ui-sref="work"> Work </button>
+    <button class="button nav-btn box-shadow--2dp" ui-sref-active="active" ui-sref="about"> About </button>
   </div>
+
+  <ui-view></ui-view>
+
 
 <!-- Angular Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
