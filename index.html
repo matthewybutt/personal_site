@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="mySite">
 <head>
 
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
+  <title>Matt Butt: Web Dev</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -25,7 +25,7 @@
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="icon" type="image/png" href="">
 
   <!-- Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -35,7 +35,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-animate.js"></script>
 
 </head>
-<body>
+<body ng-controller="MainController as vm">
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -48,7 +48,11 @@
     </div>
   </div>
 
-<!-- End Document
+<!-- Angular Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <script src="/app.js"></script>
+  <script src="/app.routes.js"></script>
+  <script src="/controllers/main_controller.js"></script>
 </body>
 </html>
