@@ -6,7 +6,17 @@ body {
 	padding: 0 25px;
 }
 
+.nameplate {
+	font-size: 4rem;
+	color: #434343;
+}
+
+#nav-p {
+	margin: 0;
+}
+
 .button-bar {
+	display: inline-block;
 	vertical-align: center;
 	text-align: center;
 	margin: 0 auto;
@@ -23,6 +33,7 @@ body {
   color: white;
 }
 
+
 #nav-hr {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
@@ -38,16 +49,53 @@ body {
 	display: inline-block;
 }
 
+/*Home Page CSS-------------------------------------*/
 .home {
 	background: white;
 	color: #555;
 }
 
+#home-welcome {
+	margin-left: -14rem;
+	font-size: 5rem;
+	margin-bottom: 0;
+}
+
+.home-wrapper {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.home-sentence {
+	margin-left: -21rem;
+	text-align: center;
+}
+
+.home-sentence span {
+	white-space: nowrap;
+
+}
+
+.home-words {
+	display: inline;
+	text-indent: 1rem;
+}
+
+.home-words span {
+	position: absolute;
+	opacity: 0;
+	overflow: hidden;
+}
+
+/*Work Page CSS-------------------------------------*/
 .work {
 	background: white;
 	color: #555;
 }
 
+/*About Page CSS-------------------------------------*/
 .about {
 	background: white;
 	color: #555;

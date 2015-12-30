@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/animate.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
@@ -40,9 +41,21 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
   <div class="container">
     <div class ="row">
       <div class="twelve columns button-bar">
+        <div class="nameplate">
+          <span class="animated flipInY" id="nav-p">m</span>
+          <span class="animated flipInY" id="nav-p">a</span>
+          <span class="animated flipInY" id="nav-p">t</span>
+          <span class="animated flipInY" id="nav-p">t</span>
+          <span class="animated flipInY" id="nav-p">&nbsp</span>
+          <span class="animated flipInY" id="nav-p">b</span>
+          <span class="animated flipInY" id="nav-p">u</span>
+          <span class="animated flipInY" id="nav-p">t</span>
+          <span class="animated flipInY" id="nav-p">t</span>
+        </div>
         <button class="button nav-btn shadow-shallow" ui-sref-active="active" ui-sref="home"> Home </button>
         <button class="button nav-btn shadow-shallow" ui-sref-active="active" ui-sref="work"> Portfolio </button>
         <button class="button nav-btn shadow-shallow" ui-sref-active="active" ui-sref="about"> About </button>
@@ -63,3 +76,6 @@
   <script src="/controllers/main_controller.js"></script>
 </body>
 </html>
+
+<!-- Flip animation in hover effect -->
+<!-- ng-class="{'animated flipInY': hover}" ng-mouseenter="hover = true" ng-mouseleave="hover = false" -->
