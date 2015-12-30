@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animations.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
@@ -39,13 +40,19 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container button-bar">
-    <button class="button nav-btn box-shadow--2dp" ui-sref-active="active" ui-sref="home"> Home </button>
-    <button class="button nav-btn box-shadow--2dp" ui-sref-active="active" ui-sref="work"> Work </button>
-    <button class="button nav-btn box-shadow--2dp" ui-sref-active="active" ui-sref="about"> About </button>
+  <div class="container">
+    <div class ="row">
+      <div class="twelve columns button-bar">
+        <button class="button nav-btn shadow-shallow" ui-sref-active="active" ui-sref="home"> Home </button>
+        <button class="button nav-btn shadow-shallow" ui-sref-active="active" ui-sref="work"> Portfolio </button>
+        <button class="button nav-btn shadow-shallow" ui-sref-active="active" ui-sref="about"> About </button>
+      </div >
+    </div>
   </div>
-
-  <ui-view></ui-view>
+  
+  <hr id="nav-hr">
+  
+  <div ui-view></div>
 
 
 <!-- Angular Scripts
