@@ -6,11 +6,11 @@
 }
 
 @keyframes rotateHomeWords {
-	0% { opacity: 1; animation-timing-function: ease-in; height: 0px; }
-	8% { opacity: 1; height: 60px; }
-	19% { opacity: 1; height: 60px; }
-	25% { opacity: 0; height: 60px; }
-	100% { opacity: 0; }
+    0% { opacity: 1; animation-timing-function: ease-in; width: 0px; }
+    10% { opacity: 1; width: 25%; }
+    20% { opacity: 1; width: 50%; }
+	30% { opacity: 0; width: 75%; }
+    100% { opacity: 0; }
 }
 
 .home-words span {

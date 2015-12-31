@@ -87,6 +87,8 @@ body {
 	position: absolute;
 	opacity: 0;
 	overflow: hidden;
+	width: 100%;
+	text-align: left;
 }
 
 /*Work Page CSS-------------------------------------*/
