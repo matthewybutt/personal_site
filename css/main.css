@@ -16,6 +16,15 @@ hr {
 	color: #434343;
 }
 
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  background-color: white;
+}
+
 .button-bar {
 	display: inline-block;
 	vertical-align: center;
@@ -43,29 +52,12 @@ hr {
 	top: 0;  
 	width: 100%; 
 	display: inline-block;
+	margin-top: 85px; 
 }
 
 .line {
 	border: 1px solid #E1E1E1;
 	margin-bottom: 1rem;
-}
-
-#footer {
-   position: fixed;
-   bottom:0;
-   height:45px;
-   display: inline-block;
-   margin: 0 auto;
-   width: 100%;
-   left: 0;
-   right: 0;
-   background-color: white;
-}
-
-#footer p{
-	margin-top: 1rem;
-	margin-left: 2.5rem;
-	margin-bottom: 0;
 }
 
 /*Home Page CSS-------------------------------------*/
@@ -79,10 +71,9 @@ hr {
 }
 
 #home-name {
-	margin-left: -8rem;
 	font-size: 5rem;
-	margin-bottom: 0;
 	letter-spacing: 1rem;
+	margin: -1rem 0 0 -8rem;
 }
 
 #home-line {
@@ -198,7 +189,27 @@ hr {
 	font-size: 1.25rem;
 }
 
-/*Drop Shadow Effect*/
+
+/*Footer-------------------------------------*/
+#footer {
+   position: fixed;
+   bottom:0;
+   height:45px;
+   display: inline-block;
+   /*margin: 0 auto;*/
+   width: 100%;
+   left: 0;
+   right: 0;
+   background-color: white;
+}
+
+#footer p{
+	margin-top: 1rem;
+	margin-left: 2.5rem;
+	margin-bottom: 0;
+}
+
+/*Drop Shadow Effect-------------------------------------*/
 .shadow-shallow {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12)
 }

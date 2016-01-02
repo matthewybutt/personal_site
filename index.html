@@ -42,18 +42,19 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <div class="container">
-    <div class ="row">
-      <div class="twelve columns button-bar">
-        <button class="button nav-btn shadow-shallow" ui-sref-active="active" ui-sref="home"> Home </button>
-        <button class="button nav-btn shadow-shallow" ui-sref-active="active" ui-sref="work"> Portfolio </button>
-        <button class="button nav-btn shadow-shallow" ui-sref-active="active" ui-sref="about"> About </button>
-      </div >
+  <nav class="fixed-nav-bar">
+    <div class="container">
+      <div class ="row">
+        <div class="twelve columns button-bar">
+          <button class="button nav-btn shadow-shallow" ui-sref-active="active" ui-sref="home"> Home </button>
+          <button class="button nav-btn shadow-shallow" ui-sref-active="active" ui-sref="work"> Portfolio </button>
+          <button class="button nav-btn shadow-shallow" ui-sref-active="active" ui-sref="about"> About </button>
+        </div >
+      </div>
     </div>
-  </div>
-  
-  <div class="line"></div>
-
+    
+    <div class="line"></div>
+  </nav>
 
   <div ui-view></div>
 
