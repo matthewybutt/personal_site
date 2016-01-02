@@ -6,6 +6,11 @@ body {
 	padding: 0 25px;
 }
 
+hr {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
 .nameplate {
 	font-size: 4.5rem;
 	color: #434343;
@@ -18,6 +23,7 @@ body {
 	margin: 0 auto;
 	padding: 0.5em;
 	width: 100%;
+	background-color: white;
 }
 
 .button-bar .button {
@@ -29,14 +35,8 @@ body {
   color: white;
 }
 
-
-#nav-hr {
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-}
-
 .page {
-	bottom: 0; 
+	bottom: 1rem; 
 /*	padding-top: 1em;
 */	position: static; 
 	text-align: center;
@@ -51,19 +51,21 @@ body {
 }
 
 #footer {
-   position:absolute;
+   position: fixed;
    bottom:0;
-   height:60px;
+   height:45px;
    display: inline-block;
    margin: 0 auto;
    width: 100%;
    left: 0;
    right: 0;
+   background-color: white;
 }
 
 #footer p{
 	margin-top: 1rem;
-	margin-left: 3rem;
+	margin-left: 2.5rem;
+	margin-bottom: 0;
 }
 
 /*Home Page CSS-------------------------------------*/
@@ -93,17 +95,23 @@ body {
 }
 
 #home-wd {
-	margin-left: 11rem;
+	position: fixed;
+	display: inline-block;
+	margin-left: -19rem;
 	font-size: 3.25rem;
 	margin-bottom: 0;
 	margin-top: -2rem;
 	letter-spacing: 2rem;
+	text-align: left;
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow: ellipsis;
 }
 
 .home-wrapper {
 	width: 100%;
 	position: relative;
-	margin: 0 auto;
+	margin: 3rem auto;
 }
 
 .home-sentence {
@@ -139,6 +147,55 @@ body {
 .about {
 	background: white;
 	color: #555;
+}
+
+#profile-pic {
+    width: 185px;
+    height: 185px;
+    border-radius: 200px;
+    border: 5px solid #EB8634;
+    display: inline-block;
+    margin: 0 0 1em;
+}
+
+#profile-pic img {
+	width: 175px;
+	border-radius: 200px;
+	border: 5px solid #409995;
+}
+
+.header-p {
+	font-size: 2.5rem;
+	margin-bottom: 0;
+}
+
+#about-info {
+	margin: 0 auto;
+	text-align: left;
+	width: 90%;
+}
+
+.contact-bar {
+	text-align: center;
+	margin: 0 auto
+}
+
+.contact-bar img {
+	width: 32px;
+	height: 32px;
+	margin: 0 15px;
+}
+
+.about-table {
+	font-size: 1.5rem;
+}
+
+#last-row td {
+	border-bottom: 0;
+}
+
+#copyright {
+	font-size: 1.25rem;
 }
 
 /*Drop Shadow Effect*/

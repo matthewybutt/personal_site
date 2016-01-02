@@ -18,7 +18,7 @@
         url: "/",
         templateUrl: "/templates/work.html",
       })
-	  .state("about", {
+    .state("about", {
         url: "/",
         templateUrl: "/templates/about.html",
       });
