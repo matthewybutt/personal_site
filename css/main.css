@@ -134,6 +134,44 @@ hr {
 	color: #555;
 }
 
+.work img {
+	width: 275px;
+	margin: 4rem auto;
+}
+
+.work-description p {
+	text-align: left;
+	margin-bottom: 0.5rem;
+}
+
+#title {
+	font-size: 3rem;
+}
+
+.work-description img {
+	width: 24px;
+	height: 24px;
+	margin: 0 2.5px;
+}
+
+.work-line {
+    border: 1px solid;
+    width: 50rem;
+    margin: 1rem auto;
+}
+
+#line1 {
+	border-color: #00565F;
+}
+
+#line2 {
+	border-color: #EB8634;
+}
+
+#line3 {
+	border-color: #0C9129;
+}
+
 /*About Page CSS-------------------------------------*/
 .about {
 	background: white;
@@ -196,7 +234,7 @@ hr {
    bottom:0;
    height:45px;
    display: inline-block;
-   /*margin: 0 auto;*/
+   margin: 0 auto;
    width: 100%;
    left: 0;
    right: 0;
