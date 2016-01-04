@@ -49,10 +49,11 @@ hr {
 /*	padding-top: 1em;
 */	position: static; 
 	text-align: center;
-	top: 0;  
-	width: 100%; 
+/*	top: 0;  
+*/	width: 100%; 
 	display: inline-block;
 	margin-top: 85px; 
+	padding-bottom: 20px;
 }
 
 .line {
@@ -100,8 +101,8 @@ hr {
 
 .home-wrapper {
 	width: 100%;
-	position: relative;
-	margin: 3rem auto;
+/*	position: relative;
+*/	margin: 3rem auto;
 }
 
 .home-sentence {
@@ -237,15 +238,15 @@ hr {
 
 /*Footer-------------------------------------*/
 #footer {
-   position: fixed;
-   bottom:0;
-   height:45px;
-   display: inline-block;
-   margin: 0 auto;
-   width: 100%;
-   left: 0;
-   right: 0;
-   background-color: white;
+	position: fixed;
+	bottom: 0;
+	height: 45px;
+	/* display: inline-block; */
+	/* margin: 0 auto; */
+	/* width: 100%; */
+	left: 0;
+	right: 0;
+	background-color: white;
 }
 
 #footer p{
@@ -269,3 +270,5 @@ hr {
         margin-top: 138px;
     }
 }
+
+/** { border: 1px solid red; }*/
