@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/slywA84.png" width="350px"/>
+<img src="https://i.imgur.com/slywA84.png" width="500px"/>
 </p>
 
 <a href="https://mattbutt.com"> <h1 align=center>mattbutt.com</h1> </a>
