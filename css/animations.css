@@ -47,12 +47,10 @@
     -ms-animation: colorChange 20s linear infinite 0s;
     animation: colorChange 20s linear infinite 0s; 
     background: linear-gradient(to top, #409995, #ffffff 80%) no-repeat center center fixed;
-    /*background: radial-gradient(at bottom, #409995, #ffffff 50%) no-repeat center center fixed;*/
 }
 
 #color-change > span:nth-child(2)  { 
 	background: linear-gradient(to top, #EB8634, #fff 80%) no-repeat center center fixed;;
-	/*background: radial-gradient(at bottom, #EB8634, #fff 50%) no-repeat center center fixed;;*/
     -webkit-animation-delay: 5s;
     -moz-animation-delay: 5s;
     -o-animation-delay: 5s;
@@ -61,7 +59,6 @@
 }
 #color-change > span:nth-child(3) { 
 	background: linear-gradient(to top, #00565F, #fff 80%) no-repeat center center fixed;
-	/*background: radial-gradient(at bottom, #00565F, #fff 50%) no-repeat center center fixed;*/
     -webkit-animation-delay: 10s;
     -moz-animation-delay: 10s;
     -o-animation-delay: 10s;
@@ -70,7 +67,6 @@
 }
 #color-change > span:nth-child(4) { 
 	background: linear-gradient(to top, #0C9129, #fff 80%) no-repeat center center fixed;
-	/*background: radial-gradient(at bottom, #0C9129, #fff 50%) no-repeat center center fixed;*/
     -webkit-animation-delay: 15s;
     -moz-animation-delay: 15s;
     -o-animation-delay: 15s;
@@ -121,29 +117,23 @@
 @keyframes colorChange { 
     0% { opacity: 0;
     animation-timing-function: ease-in; }
-    10% { opacity: 1;
+    8% { opacity: 1;
          animation-timing-function: ease-out; }
-    50% { opacity: 1 }
-    75% { opacity: 0 }
+    20% { opacity: 1 }
+    50% { opacity: 0 }
     100% { opacity: 0 }
 }
 
 #home-line span { 
-	border: 1px solid;
-	width: 47rem;
-	margin-left: -19rem;
-	margin-top: -1.5rem;
-	position: absolute;
-	display: inline;
+    border-color: #409995;
     -webkit-backface-visibility: hidden;
     -webkit-animation: colorChange 20s linear infinite 0s;
     -moz-animation: colorChange 20s linear infinite 0s;
     -o-animation: colorChange 20s linear infinite 0s;
     -ms-animation: colorChange 20s linear infinite 0s;
     animation: colorChange 20s linear infinite 0s; 
-    border-color: #409995;
 }
-#home-line > span:nth-child(2)  { 
+#home-line span:nth-child(2)  { 
 	border-color: #EB8634;
    -webkit-animation-delay: 5s;
     -moz-animation-delay: 5s;
@@ -151,7 +141,7 @@
     -ms-animation-delay: 5s;
     animation-delay: 5s; 
 }
-#home-line > span:nth-child(3) { 
+#home-line span:nth-child(3) { 
 	border-color: #00565F;
 	-webkit-animation-delay: 10s;
     -moz-animation-delay: 10s;
@@ -159,7 +149,7 @@
     -ms-animation-delay: 10s;
     animation-delay: 10s; 
 }
-#home-line > span:nth-child(4) { 
+#home-line span:nth-child(4) { 
 	border-color: #0C9129;
     -webkit-animation-delay: 15s;
     -moz-animation-delay: 15s;

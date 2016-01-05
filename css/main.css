@@ -72,7 +72,8 @@ hr {
 
 .home-title {
 	background-color: white;
-	opacity: 0.75; 
+	opacity: 0.875;
+	height: 17rem;
 }
 
 #home-name {
@@ -81,14 +82,13 @@ hr {
 	margin: -1rem 0 0 -8rem;
 }
 
-#home-line {
-/*	border: 1px solid;
-	border-color: #0C9129;
+#home-line span{ 
+	border: 1px solid;
 	width: 47rem;
 	margin-left: -19rem;
 	margin-top: -1.5rem;
 	position: absolute;
-	display: inline;*/
+	display: inline;
 }
 
 #home-wd {
@@ -142,7 +142,7 @@ hr {
     left: 0;
     z-index: -1;
 	background: url(../images/homebkgd01.jpg) no-repeat center;
-	background-size: 600% cover;
+	background-size: 0% cover;
 /*	width: 100%;
 	height: 100px;*/
 
