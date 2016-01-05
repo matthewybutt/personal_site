@@ -3,8 +3,8 @@ html{
 }
 
 body {
-	padding: 0 25px;
-}
+/*	padding: 0 25px;
+*/}
 
 hr {
 	margin-top: 1rem;
@@ -52,7 +52,7 @@ hr {
 /*	top: 0;  
 */	width: 100%; 
 	display: inline-block;
-	margin-top: 85px; 
+	padding-top: 85px; 
 	padding-bottom: 20px;
 }
 
@@ -70,6 +70,11 @@ hr {
 	margin-bottom: 0;
 }
 
+.home-title {
+	background-color: white;
+	opacity: 0.75; 
+}
+
 #home-name {
 	font-size: 5rem;
 	letter-spacing: 1rem;
@@ -77,12 +82,13 @@ hr {
 }
 
 #home-line {
-	border: 1px solid #0C9129;
+/*	border: 1px solid;
+	border-color: #0C9129;
 	width: 47rem;
 	margin-left: -19rem;
 	margin-top: -1.5rem;
 	position: absolute;
-	display: inline;
+	display: inline;*/
 }
 
 #home-wd {
@@ -128,6 +134,20 @@ hr {
 	text-align: left;
 }
 
+.home-bkgrd {
+	width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+	background: url(../images/homebkgd01.jpg) no-repeat center;
+	background-size: 600% cover;
+/*	width: 100%;
+	height: 100px;*/
+
+}
+
 /*Work Page CSS-------------------------------------*/
 .work {
 	background: white;
@@ -137,6 +157,10 @@ hr {
 .image-container img {
 	max-height: 200px;
 	margin: 2rem auto 1rem;
+}
+
+.image-container img:hover {
+	opacity: 0.5;
 }
 
 .work-description {
@@ -159,6 +183,10 @@ hr {
 	width: 24px;
 	height: 24px;
 	margin: 0 2.5px;
+}
+
+.work-description img:hover {
+	opacity: 0.5;
 }
 
 .work-line {
@@ -214,13 +242,17 @@ hr {
 
 .contact-bar {
 	text-align: center;
-	margin: 0 auto
+	margin: 0 auto 2.5rem;
 }
 
 .contact-bar img {
 	width: 32px;
 	height: 32px;
 	margin: 0 15px;
+}
+
+.contact-bar img:hover {
+	opacity: 0.5;
 }
 
 .about-table {
@@ -267,7 +299,7 @@ hr {
 /*Adjusts margin top of views when windo is collapsed-------------------------------------*/
 @media only screen and (max-width: 475px) {
     .page {
-        margin-top: 138px;
+        padding-top: 138px;
     }
 }
 
