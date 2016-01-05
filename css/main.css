@@ -2,10 +2,6 @@ html{
   height: 100%;
 }
 
-body {
-/*	padding: 0 25px;
-*/}
-
 hr {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
@@ -66,14 +62,15 @@ hr {
 	color: #555;
 }
 
-.home p {
-	margin-bottom: 0;
-}
-
 .home-title {
 	background-color: white;
 	opacity: 0.875;
 	height: 17rem;
+	margin-top: 3rem;
+}
+
+.home p {
+	margin-bottom: 0;
 }
 
 #home-name {
