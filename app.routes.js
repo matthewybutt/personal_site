@@ -23,7 +23,7 @@
         templateUrl: "/templates/about.html",
       });
 
-    $urlRouterProvider.otherwise("/home.html");
+    $urlRouterProvider.otherwise("/");
 
   }
 
