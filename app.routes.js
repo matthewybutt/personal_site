@@ -5,9 +5,9 @@
     .module("mySite")
     .config(AppRoutes);
 
-  AppRoutes.$inject = ["$stateProvider", "$urlRouterProvider"];
+  AppRoutes.$inject = ["$stateProvider", "$urlRouterProvider", "$locationProvider"];
 
-  function AppRoutes($stateProvider, $urlRouterProvider){
+  function AppRoutes($stateProvider, $urlRouterProvider, $locationProvider){
 
     $stateProvider
       .state("home", {
@@ -24,7 +24,7 @@
       });
 
     $urlRouterProvider.otherwise("/");
-
+    $locationProvider.html5Mode(true);
   }
 
 })();
