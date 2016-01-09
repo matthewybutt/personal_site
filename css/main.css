@@ -76,7 +76,8 @@ hr {
 #home-name {
 	font-size: 5rem;
 	letter-spacing: 1rem;
-	margin: -1rem 0 0 -8rem;
+	margin: -1rem 0 0 -4rem;
+	width: 100%;
 }
 
 #home-line span{ 
@@ -100,12 +101,13 @@ hr {
 	white-space: nowrap;
 	overflow:hidden;
 	text-overflow: ellipsis;
+	width: 100%;
 }
 
 .home-wrapper {
 	width: 100%;
 /*	position: relative;
-*/	margin: 3rem auto;
+*/	margin: 2.5rem auto;
 }
 
 .home-sentence {
@@ -127,7 +129,7 @@ hr {
 	position: absolute;
 	opacity: 0;
 	overflow: hidden;
-	width: 100%;
+	width: 100vw;
 	text-align: left;
 }
 
