@@ -160,6 +160,33 @@ hr {
 	opacity: 0.5;
 }
 
+#bugsGif {
+	width: 28rem;
+	margin-top: 3rem;
+}
+
+#kidsGif {
+	width: 28rem;
+	margin-top: 3rem;
+}
+
+#pixelGif {
+    width: 26.5rem;
+    margin: 3.1rem auto 1.5rem;
+}
+
+#playtimeGif {
+	width: 27rem;
+	margin: 3rem auto 1.5rem;
+}
+
+#laptop {
+	position: fixed;
+	left: 0;
+	right: 0;
+	cursor: pointer
+}
+
 .work-description {
 	min-width: 35rem;
 	max-width: 50rem;
