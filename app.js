@@ -1,7 +1,7 @@
 (function() {
   "use strict";
 
-  angular
-    .module('mySite', ['ui.router', 'ngAnimate']);
+ 	 angular
+    	.module('mySite', ['ui.router', 'ngAnimate']);
 
 })();

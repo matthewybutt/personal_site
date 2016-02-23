@@ -17,6 +17,8 @@
       .state("work", {
         url: "/",
         templateUrl: "/templates/work.html",
+        controller: "MainController",
+        controllerAs: "vm"
       })
     .state("about", {
         url: "/",

@@ -1,77 +1,24 @@
 <div class="work page animated fadeInUp">
 	<h1>Portfolio</h1>
-		<div class="image-container">
-			<!-- <a target="_blank" href="http://matthewybutt.github.io/bugs_on_a_rug/"><img src="./images/bugs.png"></a> -->			
-			<a target="_blank" href="http://matthewybutt.github.io/bugs_on_a_rug/">
-				<img id="bugsGif" src="./images/bugsGif.gif">
-				<img id="laptop" src="./images/laptop.png">
-			</a>
-		</div>
-		<div class="work-description">
-			<p id="title">Bugs On A Rug
-				<a target="_blank" href="https://github.com/matthewybutt/bugs_on_a_rug"><img src="./images/GitHub.png"></a>
-				<a target="_blank" href="http://matthewybutt.github.io/bugs_on_a_rug/"><img src="./images/externallink.png"></a>
-			</p>
-			<p>Bugs On A Rug is a matching game where players try and clear the bugs off of the rug.  Play co-op or versus and have some fun!</p>
-			<p>First project for General Assembly in week 3.  A solo project developed in one week.</p>
-			<p> <span style="font-weight:bold">Technologies Used:</span> HTML5, CSS3, JavaScript</p>
-		</div>
+		<div ng-repeat="project in vm.projects">
+			<div class="image-container">
+				<!-- <a target="_blank" href="http://matthewybutt.github.io/bugs_on_a_rug/"><img src="./images/bugs.png"></a> -->			
+				<a target="_blank" href={{project.siteLink}}>
+					<img id="bugsGif" ng-src={{project.gif}}>
+					<img id="laptop" src="./images/laptop.png">
+				</a>
+			</div>
+			<div class="work-description">
+				<p id="title">{{project.title}}
+					<a target="_blank" href={{project.githubLink}}><img src="./images/GitHub.png"></a>
+					<a target="_blank" href={{project.siteLink}}><img src="./images/externallink.png"></a>
+				</p>
+				<p>{{project.description}}</p>
+				<p>{{project.ga}}</p>
+				<p> <span style="font-weight:bold">Technologies Used:</span> {{project.tech}}</p>
+			</div>
 
-		<div class="work-line" id="line1"></div>
-
-		<div class="image-container">
-			<!-- <a target="_blank" href="https://my-kids-firsts.herokuapp.com"><img src="./images/mykids.png"></a> -->
-			<a target="_blank" href="https://my-kids-firsts.herokuapp.com">
-				<img id="kidsGif" src="./images/kidsGif.gif">
-				<img id="laptop" src="./images/laptop.png">
-			</a>		
-		</div>					
-		<div class="work-description">
-			<p id="title">my kid's firsts
-				<a target="_blank" href="https://github.com/matthewybutt/my_kids_firsts"><img src="./images/GitHub.png"></a>
-				<a target="_blank" href="https://my-kids-firsts.herokuapp.com"><img src="./images/externallink.png"></a>
-			</p>
-			<p>This app is a digital baby book for keeping track of all your child's big milestones! Sign up to keep an active record using blog posts and photo uploads of all the firsts your child does.</p>
-			<p>Second project for General Assembly in week 6.  A solo project developed in one week.</p>
-			<p> <span style="font-weight:bold">Technologies Used:</span> HTML5, CSS3, Ruby, Ruby on Rails, PostgreSQL, Paperclip, Heroku, Amazon Web Services</p>
+			<div class="{{project.lineClass}}" id="{{project.lineID}}"></div>
 		</div>
 
-		<div class="work-line" id="line2"></div>
-
-		<div class="image-container">
-			<!-- <a target="_blank" href="https://pixelspot.herokuapp.com/"><img src="./images/pixelspot.png"></a> -->
-			<a target="_blank" href="https://pixelspot.herokuapp.com">
-				<img id="pixelGif" src="./images/pixelspotGIF.gif">
-				<img id="laptop" src="./images/laptop.png">
-			</a>
-		</div>					
-		<div class="work-description">
-			<p id="title">Pixel Spot
-				<a target="_blank" href="https://github.com/sauchak/pixel_spot"><img src="./images/GitHub.png"></a>
-				<a target="_blank" href="https://pixelspot.herokuapp.com/"><img src="./images/externallink.png"></a>
-			</p>
-			<p>Pixel Spot is a photo location scouting app. Using Flickr's photo hosting and geo-tagging features in conjunction with Google Maps geo-location function users can find the exact spots of photo locations. Search for a spot with built in tag fields  or create custom tags.</p>
-			<p>Third project for General Assembly in week 9.  A group project developed in nine days with a team of 4 other developers.</p>
-			<p> <span style="font-weight:bold">Technologies Used:</span> HTML5, CSS3, JavaScript, Node.js, ExpressJS, MongoDB, jQuery, Google API, Flickr API, GeoNames API, Heroku, MongoLab</p>
-		</div>
-
-		<div class="work-line" id="line3"></div>
-
-		<div class="image-container">
-			<!-- <a target="_blank" href="https://playtime-picks.herokuapp.com"><img src="./images/playtime.png"></a> -->
-			<a target="_blank" href="https://playtime-picks.herokuapp.com">
-				<img id="playtimeGif" src="./images/playtimeGif.gif">
-				<img id="laptop" src="./images/laptop.png">
-			</a>
-		</div>
-
-		<div class="work-description">
-			<p id="title">Playtime Picks
-				<a target="_blank" href="https://github.com/matthewybutt/playtime_picks"><img src="./images/GitHub.png"></a>
-				<a target="_blank" href="https://playtime-picks.herokuapp.com"><img src="./images/externallink.png"></a>
-			</p>
-			<p>Playtime Picks is an app for anyone who needs to find an activity to do with their kid! Sign-up to add activities to the list or leave comments on an activity.</p>
-			<p>Final project for General Assembly in week 12.  A solo project developed in one week.</p>
-			<p> <span style="font-weight:bold">Technologies Used:</span> HTML5, CSS3, JavaScript, AngularJS, Node.js, ExpressJS, MongoDB, JSON Web Token (JWT), jQuery, Heroku, MongoLab</p>
-		</div>	
 </div>
