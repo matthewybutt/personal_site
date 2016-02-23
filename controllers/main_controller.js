@@ -17,7 +17,7 @@
     				ga: "First project for General Assembly in week 3.  A solo project developed in one week.",
     				tech: "HTML5, CSS3, JavaScript",
     				gif: "./images/bugsGif.gif",
-    				githubLink: "http://matthewybutt.github.io/bugs_on_a_rug/",
+    				githubLink: "https://github.com/matthewybutt/bugs_on_a_rug",
     				siteLink: "http://matthewybutt.github.io/bugs_on_a_rug/",
     				lineClass: "work-line",
     				lineID: "line1"
