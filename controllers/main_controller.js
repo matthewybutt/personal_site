@@ -49,7 +49,7 @@
     				description: "Playtime Picks is an app for anyone who needs to find an activity to do with their kid! Sign-up to add activities to the list or leave comments on an activity.",
     				ga: "Final project for General Assembly in week 12.  A solo project developed in one week.",
     				tech: "HTML5, CSS3, JavaScript, AngularJS, Node.js, ExpressJS, MongoDB, JSON Web Token (JWT), jQuery, Heroku, MongoLab",
-    				gif: "./images/pixelspotGIF.gif",
+    				gif: "./images/playtimeGIF.gif",
     				githubLink: "https://github.com/matthewybutt/playtime_picks",
     				siteLink: "https://playtime-picks.herokuapp.com",
     				lineClass: "",
