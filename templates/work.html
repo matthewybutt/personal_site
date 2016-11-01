@@ -2,9 +2,9 @@
 	<h1>Portfolio</h1>
 		<div ng-repeat="project in vm.projects">
 			<div class="image-container">
-				<!-- <a target="_blank" href="http://matthewybutt.github.io/bugs_on_a_rug/"><img src="./images/bugs.png"></a> -->			
+				<!-- <a target="_blank" href="http://matthewybutt.github.io/bugs_on_a_rug/"><img src="./images/bugs.png"></a> -->
 				<a target="_blank" href={{project.siteLink}}>
-					<img id="bugsGif" ng-src={{project.gif}}>
+					<img id={{project.gifId}} ng-src={{project.gif}}>
 					<img id="laptop" src="./images/laptop.png">
 				</a>
 			</div>

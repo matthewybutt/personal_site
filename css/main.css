@@ -41,14 +41,14 @@ hr {
 }
 
 .page {
-	bottom: 1rem; 
+	bottom: 1rem;
 /*	padding-top: 1em;
-*/	position: static; 
+*/	position: static;
 	text-align: center;
-/*	top: 0;  
-*/	width: 100%; 
+/*	top: 0;
+*/	width: 100%;
 	display: inline-block;
-	padding-top: 85px; 
+	padding-top: 85px;
 	padding-bottom: 20px;
 }
 
@@ -80,7 +80,7 @@ hr {
 	width: 100%;
 }
 
-#home-line span{ 
+#home-line span{
 	border: 1px solid;
 	width: 47rem;
 	margin-left: -19rem;
@@ -183,7 +183,7 @@ hr {
 }
 
 #laptop {
-	position: fixed;
+	position: absolute;
 	left: 0;
 	right: 0;
 	cursor: pointer

@@ -20,7 +20,8 @@
     				githubLink: "https://github.com/matthewybutt/bugs_on_a_rug",
     				siteLink: "http://matthewybutt.github.io/bugs_on_a_rug/",
     				lineClass: "work-line",
-    				lineID: "line1"
+    				lineID: "line1",
+                    gifId: "bugsGif"
     			},
     			{
     				title: "my kid's firsts",
@@ -31,7 +32,8 @@
     				githubLink: "https://github.com/matthewybutt/my_kids_firsts",
     				siteLink: "https://my-kids-firsts.herokuapp.com",
     				lineClass: "work-line",
-    				lineID: "line2"
+    				lineID: "line2",
+                    gifId: "kidsGif"
     			},
     			{
     				title: "Pixel Spot",
@@ -42,7 +44,8 @@
     				githubLink: "https://github.com/sauchak/pixel_spot",
     				siteLink: "https://pixelspot.herokuapp.com/",
     				lineClass: "work-line",
-    				lineID: "line3"
+    				lineID: "line3",
+                    gifId: "pixelGif"
     			},
     			{
     				title: "Playtime Picks",
@@ -53,7 +56,8 @@
     				githubLink: "https://github.com/matthewybutt/playtime_picks",
     				siteLink: "https://playtime-picks.herokuapp.com",
     				lineClass: "",
-    				lineID: ""
+    				lineID: "",
+                    gifId: "playtimeGif"
     			}
     		];
         };
