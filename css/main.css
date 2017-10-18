@@ -162,6 +162,11 @@ hr {
 	opacity: 0.5;
 }
 
+#lmpGif {
+  width: 28rem;
+  margin-top: 3.5rem;
+}
+
 #bugsGif {
 	width: 28rem;
 	margin-top: 3rem;

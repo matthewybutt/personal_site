@@ -11,7 +11,19 @@
        var vm = this;
 
        vm.projects = [
-    			{
+                {
+                    title: "Light My Path",
+                    description: "Light My Path is a Bible verse memorization app.  Search for a verse, save it to your list and start memorizing.  More words disappear as you guess correctly!",
+                    ga: "Personal project to build a fullstack MERN app",
+                    tech: "React, Redux, JavaScript, Node, Express, Mongoose, MongoDB, HTML5, CSS3, Materialize, Passport, Google OAuth",
+                    gif: "./images/lmp.gif",
+                    githubLink: "https://github.com/matthewybutt/lightmypath",
+                    siteLink: "http://ligthmypath.herokuapp.com",
+                    lineClass: "work-line",
+                    lineID: "line1",
+                    gifId: "lmpGif"
+                },
+                {
     				title: "Bugs On A Rug",
     				description: "Bugs On A Rug is a matching game where players try and clear the bugs off of the rug.  Play co-op or versus and have some fun!",
     				ga: "First project for General Assembly in week 3.  A solo project developed in one week.",
@@ -20,7 +32,7 @@
     				githubLink: "https://github.com/matthewybutt/bugs_on_a_rug",
     				siteLink: "http://matthewybutt.github.io/bugs_on_a_rug/",
     				lineClass: "work-line",
-    				lineID: "line1",
+                    lineID: "line2",
                     gifId: "bugsGif"
     			},
     			{
@@ -32,7 +44,7 @@
     				githubLink: "https://github.com/matthewybutt/my_kids_firsts",
     				siteLink: "https://my-kids-firsts.herokuapp.com",
     				lineClass: "work-line",
-    				lineID: "line2",
+                    lineID: "line3",
                     gifId: "kidsGif"
     			},
     			{
@@ -44,7 +56,7 @@
     				githubLink: "https://github.com/sauchak/pixel_spot",
     				siteLink: "https://pixelspot.herokuapp.com/",
     				lineClass: "work-line",
-    				lineID: "line3",
+                    lineID: "line1",
                     gifId: "pixelGif"
     			},
     			{
@@ -56,7 +68,7 @@
     				githubLink: "https://github.com/matthewybutt/playtime_picks",
     				siteLink: "https://playtime-picks.herokuapp.com",
     				lineClass: "",
-    				lineID: "",
+                    lineID: "",
                     gifId: "playtimeGif"
     			}
     		];
