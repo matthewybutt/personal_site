@@ -18,7 +18,7 @@
                     tech: "React, Redux, JavaScript, Node, Express, Mongoose, MongoDB, HTML5, CSS3, Materialize, Passport, Google OAuth",
                     gif: "./images/lmp.gif",
                     githubLink: "https://github.com/matthewybutt/lightmypath",
-                    siteLink: "http://ligthmypath.herokuapp.com",
+                    siteLink: "http://lightmypath.herokuapp.com",
                     lineClass: "work-line",
                     lineID: "line1",
                     gifId: "lmpGif"
